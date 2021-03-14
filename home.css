@@ -1,0 +1,144 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background: linear-gradient(130deg, rgba(0, 0, 0, 0.993)0%, rgba(0, 0, 0, 0.883)100%);
+    background-size: cover;
+   
+}
+
+header .container{
+    /* display: flex;
+    justify-content: space-between; */
+    
+}
+
+
+.sign-in{
+    background-color: hsl(0, 100%, 50%);
+    color: white;
+    position: absolute;
+    top: 2%;
+    right: 5%;
+    padding: 10px 30px;
+    border-radius: 10px;
+    border: none;
+    
+}
+.sign-in:hover{
+    background: hsl(0, 100%, 35%);
+}
+
+
+/****************************** Cards ******************************************/
+
+.col-md-3{
+   
+}
+ .mb-3{
+     border: none;
+     color: white;
+     text-align: center;  
+     background: transparent;
+     cursor: pointer;
+     transition: .7s ease-in-out;
+ }
+ 
+ .mb-3:hover{
+     transform: translateY(-15%);
+ }
+.card-body{
+   background: transparent;
+   cursor: pointer;
+}
+
+/* ********************************************footer************************************** */
+
+footer{
+    background: linear-gradient(130deg, rgba(0, 0, 0, 0.993)0%, rgba(0, 0, 0, 0.883)100%);
+    width: 100%;
+    padding: 5rem 0;
+   
+}
+
+footer h4{
+    margin-bottom: 2rem;
+}
+
+footer p{
+    color: #ffffffb0;
+    cursor: pointer;
+}
+
+footer .section{
+    margin: 1rem 0;
+}
+
+
+/* ********************************* join us************************* */
+.waiting{
+    margin: 2rem 0 0 ;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+input{
+    padding: 15px 70px;
+}
+
+.me-2{
+    width: 500px;
+    height: 60px;
+    border-radius: 0;
+}
+
+.btn-danger{
+    width: 150px ;
+    background-color: rgba(255, 0, 0, 0.876);
+    margin-left: -.7rem;
+    border-radius: 0%;
+}
+.btn-danger:hover{
+    background:rgba(165, 0, 0, 0.938) ;
+}
+
+.waiting p{
+    color: #c5c4c4;
+}
+
+.model-box.show{
+    display: block;
+}
+
+
+/*88*************************** Model ***********************************/
+
+.model-box{
+   
+    width: 100%;
+    height: 50%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    /* background:  url(images/a.png);  */
+    background-size: cover;
+    
+    /* background: wheat; */
+    z-index: 1;
+    display: none;
+    overflow-x: hidden;
+    color: white;
+}
+
+
+
+@media screen and (max-width:500px){
+    .model-box img{
+        display: none;
+    }
+}

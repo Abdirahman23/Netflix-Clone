@@ -1,0 +1,247 @@
+@media screen and (max-width:950px){
+    .home{
+        height: 100vh;
+    }
+    
+   .home .text h1{
+       font-size: 3rem;
+   }
+   .home .text h4{
+    font-size: 1.8rem;
+    }
+    
+    .enjoy h1{
+        font-size: 2.8rem ;
+        margin: 0 1rem 0 0;
+    }
+    .enjoy h4{
+    margin: .3rem 0; 
+    font-size: 1.5rem;
+    }
+
+    .download h1{
+        font-size: 2.6rem;
+    }
+    .download h4{
+        font-size: 1.5rem;
+        font-weight: 100;
+    }
+    .everywhere h1{
+        font-size: 2.6rem;
+    }
+    .everywhere h4{
+        font-size: 1.5rem;
+        font-weight: 100;
+    }
+}
+
+
+@media screen and (max-width:768px){
+
+    .home .text h1 {
+        font-size: 2.7rem;
+    }
+    .home .text h4 {
+        font-size: 1.7rem;
+    }
+    .ready{
+        font-size: 1rem;
+        margin-bottom: .5rem;
+    }
+    .enjoy  {
+        padding: 4rem 0 0 0;
+        
+    }
+
+    .enjoy  .text{
+        margin-top: 3rem;
+    }
+    
+}
+
+@media screen and (max-width:680px){
+    .navbar-brand img{
+        height: 80px 
+    }
+    .me-2 {
+        width: 350px;
+        height: 56px;
+    }
+    .btn-danger {
+        width: 120px;
+    }
+
+}
+
+
+@media screen and (max-width:680px){
+    .ready{
+        margin-top: 1.5rem;
+        font-weight: 100;
+    }
+}
+
+ 
+/* @media screen and (min-width:500px){
+    
+    .logo-2{
+        display: none;
+    }
+} */
+@media screen and (max-width:500px){
+    
+    .logo-1{
+        display: block;
+    }
+
+    .home .text h1{
+        font-size: 2rem;
+       
+    }
+    .home .text h4{
+        font-size: 1.4rem;
+        margin : .5rem;
+    }
+   .ready{
+       font-size: .8rem;
+   }
+   .me-2 {
+    width: 250px;
+    height: 50px;
+}
+.btn-danger {
+    width: 80px;
+    height: 50px;
+    font-size: .8rem;
+}
+
+.enjoy {
+    padding-top: 1rem;
+}
+
+.faqs h1{
+    font-size: 2rem;
+    
+}
+.faqs p{
+    text-align: center;
+}
+
+.enjoy h1{
+    font-size: 2rem;
+}
+
+.enjoy h4{
+    font-size: 1.4rem;
+    margin-top: 1rem;
+}
+
+.download{
+    padding: 2rem 0rem;
+    text-align: center;
+}
+
+.download h1{
+    font-size: 2rem;
+}
+
+.everywhere h1{
+    font-size: 2rem;
+}
+
+.everywhere h4{
+    font-size: 1.4rem;
+    margin-top: .5rem;
+}
+
+.download h4{
+    font-size: 1.4rem;
+    margin-top: .5rem;
+}
+}
+
+@media screen and (max-width:400px){
+    /* .sign-in{
+        
+        padding: 2.5px 6px;
+        border-radius: 2.5px;
+    } */
+    select{
+         margin-right:  0px;
+        
+    }
+
+    .navbar-brand{
+        height: 40px;
+        
+    }
+        
+     .enjoy h1{
+        font-size: 1.5rem;
+     }
+     .enjoy h4{
+        font-size: 1.2rem;
+     }
+
+   .download h1{
+       font-size: 1.5rem;
+   }
+   .download h1{
+    font-size: 1.2rem;
+   }
+   .everywhere h1{
+    font-size: 1.5rem;
+    margin-right: 0;
+   }
+   .everywhere h4{
+    font-size: 1.2rem;
+   }
+   .faqs h1{
+    font-size: 1.5rem;
+   }
+   .faqs .collapsed{
+    color: white;
+    border-top: 1px solid white;
+    margin: 1rem 0  0;
+    font-size: 1rem;
+}
+
+   .faqs .accordion-item{
+    font-size: 1.1rem;
+   }
+
+    footer{
+       padding: 1rem 0;
+       line-height: 10px;
+   }
+   
+   footer h4{
+    font-size: 1.5rem;
+    margin-top: 1rem;
+   }
+   footer p{
+       font-size: .9rem;
+   }
+
+}
+
+@media screen and (max-width:350px){
+
+    .home{
+        height: 120vh;
+    }
+    
+    .navbar-brand img{
+        margin-top: -1rem;
+    }
+    .me-2 {
+        width: 200px;
+        height: 45px;
+        
+    }
+    .btn-danger {
+        width: 80px;
+        height: 45px;
+        font-size: 11px;
+    }
+}
